@@ -38,10 +38,14 @@ jobs:
           test -f index.html
       - name: Health check (flask)
         run: |
-          timeout 10 python app.py &
-          sleep 3
+          nohup python app.py > /tmp/flask.log 2>&1 &
+          FLASK_PID=$!
+          sleep 4
           curl -s http://127.0.0.1:5000/health | grep -q '"status": "ok"'
-          pkill -f "python app.py" || true
+          echo "Health OK, killing $FLASK_PID"
+          kill $FLASK_PID || pkill -f "python app.py" || true
+          sleep 1
+          cat /tmp/flask.log | head -n 20
 
   build-docker:
     runs-on: ubuntu-latest
