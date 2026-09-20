@@ -1,0 +1,8 @@
+# wrangler.toml — Cloudflare Pages / Tunnel (opcional)
+# Para Pages: `npx wrangler pages deploy ./ --project-name=g1-de-ideias`
+name = "g1-de-ideias"
+type = "javascript"
+account_id = "SEU_ACCOUNT_ID"
+workers_dev = true
+
+# Para Tunnel (Mint): cloudflared tunnel create g1-ideias && cloudflared tunnel route dns g1-ideias g1deideiasdofabio.com

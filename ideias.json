@@ -1,0 +1,243 @@
+{
+  "projeto": "G1 de Ideias",
+  "versao": "0.1",
+  "data": "2026-09-11",
+  "pasta_prints": "/storage/emulated/0/Pictures/Screenshots",
+  "total_prints": 822,
+  "status": "Atualizado 2026-09-11 - 10 ultimas ideias OCR tesseract 5.5.0 por+eng",
+  "editorias": [
+    "IA",
+    "Seguranca",
+    "Hacking",
+    "Automacao",
+    "WhatsApp",
+    "VPS"
+  ],
+  "perfis": [
+    "tecnico",
+    "provocador",
+    "didatico"
+  ],
+  "ideias": [
+    {
+      "id": "20260910-205937",
+      "titulo": "Phone Harness: faça seu agente testar seu checkout como usuário real",
+      "texto_completo": "20:59 @ % 0099 + Se O a 077%\n+ .\n“> EmDestaque  Maisrecentes Pessoas |\n4) Execute phone-harness\n5) Dê a ele o primeiro trabalho: abra o app, crie\numa conta, toque pelo onboarding, tente o\ncheckout, tire screenshots e me diga onde fica\nconfuso ou quebra.\n6) Depois aponte para os apps móveis que não\ntêm API nenhuma.\nToda equipe móvel deveria estar executando\nesse teste de inscrição constantemente. A\nmaioria não faz, porque é tedioso, ou eles não\nquerem contratar essa pessoa, ou a pessoa\ncomete erros mesmo assim.\nAgentes estão passando de responder\nperguntas para operar ferramentas, e o\ntelefone é uma das maiores superfícies de\nferramentas no mundo.\nConecte o telefone, execute o doctor, depois\nentregue a ele o seu fluxo de inscrição\nre ne-harness - MIT - early\nPhone Harness\n= eae THE IPHONE (XE\nJ à ; MIRRORING WINDOW as o as a\n* The Startup Ideas Podca... @ Q",
+      "resumo": "Passo 4-6: abra o app, crie conta, tente checkout e diga onde quebra. Toda equipe móvel deveria rodar esse teste.",
+      "fonte_arroba": "@startupideaspod",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:59:37",
+      "categorias": [
+        "twitter",
+        "github",
+        "gringa"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/startupideaspod",
+      "link_github": "https://github.com/phone-harness/phone-harness",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205937.X.png",
+      "perfil_escrita": "tecnico"
+    },
+    {
+      "id": "20260910-205932",
+      "titulo": "Deixe a IA se inscrever no seu próprio app em um telefone real",
+      "texto_completo": "20:59 @ % 0099 + © f © i °4 077%\nMe Em Destaque  Maisrecentes Pessoas N\nÉ The Startup Ideas Pode... 2 -O3set. GF\nJ Traduzido do inglês Mostrar original\nUma das vitórias mais fáceis com um agente\nde IA agora é deixá-lo se inscrever no seu\npróprio aplicativo móvel em um telefone real.\nExiste um repositório chamado Phone Harness\nque conecta o Codex ou o Claude Code a um\niPhone ou Android real.\nO agente vê a tela e pode tocar, digitar, rolar,\nabrir apps e verificar o que aconteceu.\nAqui está toda a configuração:\n1) Conecte o telefone. iPhone vai através do\nespelhamento do iPhone no Mac, Android vai\natravés do ADB por USB ou sem fio.\n2) Você não precisa fazer jailbreak em nada,\nnão precisa do Xcode e não precisa de um app\nespecial no telefone.\n3) Cole o prompt de configuração do\nrepositório no Codex ou Claude Code: clone o\nGitHub, leia o install.md, coloque o phone\nharness no seu path, registre-o como uma\nhabilidade de agente, depois leia o\nonboarding.md e me guie pela configuração.\n4) Execute phone-harness\n5) Dê a ele o primeiro trabalho: abra o a ie\numa conta, toque pelo onboarding, te\ncheckout, tire screenshots e me diga\nconfuso ou quebra.\n< O [Ol",
+      "resumo": "Phone Harness conecta Codex/Claude Code ao iPhone/Android real. Vê tela, toca, digita, rola e verifica.",
+      "fonte_arroba": "@startupideaspod",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:59:32",
+      "categorias": [
+        "twitter",
+        "github",
+        "gringa",
+        "ia"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/startupideaspod/status/196xxx",
+      "link_github": "https://github.com/phone-harness/phone-harness",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205932.X.png",
+      "perfil_escrita": "didatico"
+    },
+    {
+      "id": "20260910-205915",
+      "titulo": "ADB Wi-Fi 2.0: 32% mais sucesso e QR pairing que realmente funciona",
+      "texto_completo": "20:59 @ % 0099 + O 4 077%\n“oe Em Destaque  Maisrecentes Pessoas N\nOQ 42 tl 116 QO 553 ki 70,7K LQ\npt Android Developers :2 @Andro...-1d SS\nEE 14 Traduzido do inglês Mostrar original\nSe você já teve o debug sem fio falhar no\nmomento em que sua rede mudou ou seu\ndispositivo travou, este é para você.\nReconstruímos a pilha para tornar o debug\nsem fio verdadeiramente rápido e confiável.\nCom o ADB Wi-Fi 2.0, as conexões\nautomáticas têm 32% mais sucesso, e o\npareamento via código QR é mais fácil do que\nnunca. Saiba como funciona e como\nconfigurá-lo >\nGIF pari | :\nO15 tl 59 QO497 48,9K LL\nÉ The Startup Ideas Pode... 2 -O3set. GF\nJ Traduzido do inglês Mostrar original\nUma das vitórias mais fáceis com um agente\nde IA agora é deixá-lo se inscrever no seu\npróprio aplicativo móvel em um telefone real.\nExiste um repositório chamado Phone\nque conecta o Codex ou o Claude Cod\niPhone ou Android real.\n< O IO]",
+      "resumo": "Android Developers reconstruiu a pilha de debug sem fio. Conexões automáticas 32% mais confiáveis.",
+      "fonte_arroba": "@AndroidDev",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:59:15",
+      "categorias": [
+        "twitter",
+        "github",
+        "gringa",
+        "vps"
+      ],
+      "editoria": "VPS",
+      "link_original": "https://x.com/AndroidDev",
+      "link_github": "https://developer.android.com/studio/run/device",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205915.X.png",
+      "perfil_escrita": "tecnico"
+    },
+    {
+      "id": "20260910-205856",
+      "titulo": "android-remote-control-mcp: controle Android via MCP com ADB e dump XML",
+      "texto_completo": "20:58 @ 44 00 99 + ° £ © i SA 78%\n\n€ Postar (9\n& tenho Seguindo\n\nÀ @LawrenceW Zen\n\nSJ Traduzido do chinês Mostrar original <>\nEME, Agent IUEEB(ETNNESSFA! É\nJY#A—F: android-remote-control-mcp\nRARE AppFALE Gif MCP\nserver > Hi root, #AFARKHE2R, NFS ABAD EA\nADB Ht—k, ATINM HABER EAGF\nNUS. mig. RR. FT. Fapp. 48\nBB. iE, 57 TIA\nWEF ia\ngithub.com/danielealbano/...\nRERWALMSH Sin, E—HBFÉS UMA\n® 4000 ¥H}HA, —F token&A, LLABES\ndump XML NHEBA Do\nPHERE RETR, FARA SE\nTo WRIA SAL AirtapWaFIL, B\nAAs, RRR, ARIA.\nRR 1 —E Agent S&hnteF Android FAL\nfe, — EE? Agent, CR CHERAB BX\nFP Ltois-An eo +.\n\nee Postar sua resposta AS) @) po\n\n< O lol",
+      "resumo": "Server MCP que dá Hi root, dump XML da tela, AirTap via ADB. Token + controle total do Android via Agent.",
+      "fonte_arroba": "@LawrenceW",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:58:56",
+      "categorias": [
+        "twitter",
+        "github",
+        "gringa",
+        "hacking"
+      ],
+      "editoria": "Hacking",
+      "link_original": "https://x.com/LawrenceW",
+      "link_github": "https://github.com/danielealbano/android-remote-control-mcp",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205856.X.png",
+      "perfil_escrita": "tecnico"
+    },
+    {
+      "id": "20260910-205619",
+      "titulo": "Meu setup 50x mais barato: HAIKU terceiriza tudo pro DeepSeek v4 Flash no OpenCode",
+      "texto_completo": "20:56 @ % 0099 + ° 6 O YD oA 79%\n€ Postar (9\nSamuel McDonnell &\n32 @samueljmed b Seguir J\nSJ Traduzido do inglês Mostrar original €)\nminha nova configuração favorita é usar E:\nHAIKU no claude code como intermediá\nque terceiriza todo o seu trabalho para e\nmultiagente de deepseek v4 flash no\nOPENCODE.\nessa configuração é pelo menos 50x mz\nbarata que os modelos Claude convenci\ne de qualidade superior.\nÚltima edição 4:53 - 10 set. 26 + 1,5K Visualiza\n(ml\nOs ts O» fi &\nRelevante v Ver comenta\nLahfir 2 @mdlahfir - 15h ES\nHere's my setup and doing 650 m/ day. ;\nx.com/mdlahfir/statu...\nQ Lahfir @ @mdlahfir- 23h\nSJ Traduzido do inglês\nEsta é a minha fábrica de software local.\nIsso me ajuda a continuar sem nunca\natingir o limite e a realizar muito mais. Use\nos modelos apenas para trabalhos de alto\nee Postar sua resposta AS) @) 4\n< O lol",
+      "resumo": "Claude Code com HAIKU como intermediário que joga trabalho pro multiagente DeepSeek v4 Flash. Qualidade superior.",
+      "fonte_arroba": "@samueljmed",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:56:19",
+      "categorias": [
+        "twitter",
+        "llm",
+        "gringa",
+        "ia"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/samueljmed/status/196xxx",
+      "link_github": "https://github.com/opencode-ai/opencode",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205619.X.png",
+      "perfil_escrita": "provocador"
+    },
+    {
+      "id": "20260910-205514",
+      "titulo": "Bolha dev: amiga nunca usou ChatGPT e nem sabia que existia app",
+      "texto_completo": "20:55 @ % 0099 + ° PO RES 79%\n\nWilliam Dobrev\ne e.\nO All v O tl É)\n\nae Como vocês resolvem orquestração de\nagentes hoje?\nO 3 q Q 6 142K Dos\n\nt) William Dobrev repostado\n\nEmilly Humphress @ @emillyh... -2h (5\n\nOntem eu realmente percebi que vivo numa\nbolha dev.\nTava conversando com umas amigas e\ndescobri que uma delas nunca tinha usado o\nchatgpt. Na verdade, nem sabia que existia um\napp.\nNa minha cabeça, todo mundo já usava isso\nde alguma forma.\nMind blown.\nQue bolha que eu vivo.\nO 4 ty4 © 29 hskK = Qo &\n\nt) William Dobrev repostado\n\nsanti @ @santtiagom_- 4h (9\n\nCl J Traduzido do espanhol Mostrar original\nquando já te sentes confortável programando,\no próximo salto é aprender design de\nsistemas.\njá sabes construir uma funcionalidad\ntoca entender o que acontece quand\nmilhares de pessoas a usam ao mesmo tempo,\nne nanne rraceram arvriim carina falha",
+      "resumo": "Emilly Humphress percebeu que vive numa bolha. Orquestração de agentes vs bolha dev vs design de sistemas.",
+      "fonte_arroba": "@emillyh",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:55:14",
+      "categorias": [
+        "twitter",
+        "brasil",
+        "ia"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/emillyh/status/196xxx",
+      "link_github": "",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205514.X.png",
+      "perfil_escrita": "didatico"
+    },
+    {
+      "id": "20260910-205502",
+      "titulo": "Orquestração de agentes hoje: ORCA, Grok Bot e os 3 Poderes que funcionam",
+      "texto_completo": "20:55 @ % 0099 + PP O SA 179%\n€ Postar (9\n> William Dobrev @\n@WillDobrev\nComo vocês resolvem orquestração de\nagentes hoje?\n19:27 « 10 set. 26 + 1,2K Visualizações\nOs td V6 Ne «©\nRelevante v\nJairo Evaristo @jairoevrst - 1h 12)\nacho que o orca é um dos melhores hoje em\ndia\n0 1 tl QO 2 1 115 q S\nPedro Viana -. @ @pedrovi... -24min SS\nGrok Bot com Bots que supervisionam uns aos\noutros em momentos diferentes. Tipo os Três\nPoderes (Judiciario, Legislativo e Executivo),\nmas de uma forma que funciona, rs.\nQO ty Q hl 53 Ns\nJanderson F.|ElyraADE@... -3min @\nElyra ADE\nQO ty Q it 12 Ns\nDescubra mais\nee Postar sua resposta AS) (er) a\n< O ll",
+      "resumo": "William Dobrev pergunta como resolver orquestração. Respostas: ORCA é dos melhores, Grok Bot com supervisores.",
+      "fonte_arroba": "@WillDobrev",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:55:02",
+      "categorias": [
+        "twitter",
+        "brasil",
+        "gringa",
+        "ia"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/WillDobrev/status/196xxx",
+      "link_github": "",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205502.X.png",
+      "perfil_escrita": "provocador"
+    },
+    {
+      "id": "20260910-205440",
+      "titulo": "Claude consegue pegar seu site, achar clientes, enviar email e agendar chamadas?",
+      "texto_completo": "38,2K\n20:54 @ & 0099 + oF O REA 180%\nO es Tl 86 © 893  1K a\nRelevante v Ver comentarios >\nmatt palmer @ @mattyp - 2h 12)\nTemplate: x.ai/bot/NJXi2SWEuh...\nShout out @usebland for the great API and\nslightly scary voice cloning\nO3 2 Q 22 145K DS\nOlivia @ @oliviaygu - 2h 12)\nReally neat! that voice cloning was super\nimpressive\n0 1 tl 94 W813 Ns\nmatt palmer @ @mattyp - 2h 12)\nyes a bit scared about how much audio of me\nis on the internet now &\nQ ty Q 3 i767 Ms\n)), Vladimir Bayandin @ @vovudebosh Ad\n$$ Traduzido do inglés Mostrar original\ndesculpe, o Claude consegue FAZER O QUE?\nele consegue pegar o link do seu site,\nencontrar pessoas que precisam do seu\nproduto, enviar e-mails pra elas e agendar as\nchamadas?\ndesde quando?? eu tenho feito isso\nmanualmente ha UM ANO.\nee Postar sua resposta AS) @) vo\n< O IO]",
+      "resumo": "Vladimir Bayandin chocado: fazia manualmente há 1 ano o que Claude faz sozinho. Matt Palmer mostra Grok Bot Dialbot.",
+      "fonte_arroba": "@vovabesh",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:54:40",
+      "categorias": [
+        "twitter",
+        "gringa",
+        "automacao",
+        "ia"
+      ],
+      "editoria": "Automacao",
+      "link_original": "https://x.com/vovabesh/status/196xxx",
+      "link_github": "https://x.ai/bot/NJXi2SWEuh",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205440.X.png",
+      "perfil_escrita": "provocador"
+    },
+    {
+      "id": "20260910-205422",
+      "titulo": "Grok Bot pode fazer qualquer chamada que você faz: demo ao vivo + transcrição",
+      "texto_completo": "20:54 @ 44 0099 + ER Yo “S 080%\nam) ’\nVI\nOss tr72 084k ii 498K Ns\nt) Robert Scoble repostado\n3 | matt palmer @ Omattyp - 2h 6)\ny §J Traduzido do inglês\nDando um Telefone ao Grok Bot\n00:19 Instalando o Dialbot\n00:54 Configuração de voz neutra\n02:39 Por que usar um agente de chamadas?\n03:20 Demonstração ao vivo de chamada\n04:50 Revisando a transcrição e o custo\n05:38 Encadeando bots\npode fazer qualquer coisa que você\npode - esta é uma forma de fazer chamadas\n© 67 t384 QO 863 it 36K YQ s&s\nWho to follow",
+      "resumo": "Matt Palmer @mattyp mostra Dialbot: 00:19 instalação, 02:39 por que usar agente de chamadas, 05:38 encadeando bots.",
+      "fonte_arroba": "@mattyp",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:54:22",
+      "categorias": [
+        "twitter",
+        "gringa",
+        "ia",
+        "automacao"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/mattyp/status/196xxx",
+      "link_github": "https://x.ai/bot/NJXi2SWEuh",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205422.X.png",
+      "perfil_escrita": "didatico"
+    },
+    {
+      "id": "20260910-205417",
+      "titulo": "Dando um Telefone ao Grok Bot: template x.ai + Bland API + voz clonada assustadora",
+      "texto_completo": "20:54 € % 00 99 + edgeo | O o < EL\n+ a 25 publicado\nO35 tr72 O84k ii 498K Ns\nt3 Robert Scoble repostado\nmatt palmer @ @mattyp - 2h {2}\n$$ Traduzido do inglês Mostrar original\nDando um Telefone ao Grok Bot\n00:19 Instalando o Dialbot\n00:54 Configuração de voz neutra\n02:39 Por que usar um agente de chamadas?\n03:20 Demonstração ao vivo de chamada\n04:50 Revisando a transcrição e o custo\n05:38 Encadeando bots\n(Bot pode fazer qualquer coisa que você\npode - Mostrar mais\n. uma es\nfee á\n» d > E- ° aa\n~ KH\nOQ 67 tl 84 QO 863 it 36K YQ s&s\nWho to follow\n< O Il",
+      "resumo": "Robert Scoble repost @mattyp: Bland API com voice cloning super impressionante. Custo, transcrição e bots encadeados.",
+      "fonte_arroba": "@mattyp",
+      "plataforma": "twitter",
+      "coletor_login": "fabio",
+      "data": "2026-09-10",
+      "hora": "20:54:17",
+      "categorias": [
+        "twitter",
+        "gringa",
+        "ia",
+        "whatsapp"
+      ],
+      "editoria": "IA",
+      "link_original": "https://x.com/mattyp/status/196xxx",
+      "link_github": "https://x.ai/bot/NJXi2SWEuh",
+      "imagem": "/storage/emulated/0/Pictures/Screenshots/Screenshot_20260910-205417.X.png",
+      "perfil_escrita": "tecnico"
+    }
+  ],
+  "total_ideias": 10,
+  "ultima_atualizacao": "2026-09-11T00:22:00"
+}

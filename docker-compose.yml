@@ -1,0 +1,32 @@
+# docker-compose.yml — G1 DE IDEIAS (dev + prod)
+services:
+  g1:
+    build: .
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./prints:/app/prints
+      - ./index.html:/app/index.html
+      - ./detalhe:/app/detalhe
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # Cloudflare Tunnel (opcional) — expõe 5000 pra internet sem abrir porta
+  # Requer CLOUDFLARE_TUNNEL_TOKEN no .env
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      g1:
+        condition: service_healthy
+    restart: unless-stopped
+    profiles: ["tunnel"]

@@ -1,0 +1,28 @@
+[project]
+name = "g1-de-ideias"
+version = "2.0.0"
+description = "G1 DE IDEIAS — globo.com de ideias com JEV + OCR (Fábio Rosestolato)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name="Fábio Rosestolato", email="rosestolatoti@gmail.com"}]
+dependencies = [
+  "Flask==3.1.1",
+  "Werkzeug==3.1.3",
+  "python-dotenv==1.0.1",
+  "gunicorn==23.0.0",
+  "Pillow==11.1.0",
+  "typesafe-sdk==0.7.0",
+  "requests==2.32.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.1", "ruff==0.14.0", "black==25.9.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

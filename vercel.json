@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "name": "g1-de-ideias",
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": { "runtime": "python3.13", "maxLambdaSize": "15mb" }
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/prints/(.*)", "dest": "/prints/$1" },
+    { "src": "/detalhe/(.*)", "dest": "/detalhe/$1" },
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/api/(.*)", "dest": "app.py" },
+    { "src": "/health", "dest": "app.py" },
+    { "src": "/ready", "dest": "app.py" },
+    { "src": "/search", "dest": "app.py" },
+    { "src": "/(.*)", "dest": "app.py" }
+  ],
+  "env": {
+    "FLASK_ENV": "production"
+  },
+  "regions": ["gru1"],
+  "github": {
+    "silent": true
+  }
+}

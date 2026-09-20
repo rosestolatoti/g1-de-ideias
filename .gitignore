@@ -1,0 +1,89 @@
+# G1 DE IDEIAS — .gitignore profissional
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.log
+
+# Env / Secrets — NUNCA commitar chave!
+.env
+.env.local
+.env.secure
+*.key
+*.pem
+.hermes/
+typesafe-lab/.env.secure
+
+# Banco gerado (espelho)
+data/noticias.db
+data/noticias.db-journal
+*.db-journal
+*.sqlite
+
+# Prints originais são pesados — só commit cropped se quiser
+# Descomente se quiser ignorar tudo:
+# prints/original/*.png
+# prints/original/*.jpg
+# Mas mantemos cropped pequeno versionado opcional:
+# prints/cropped/*.jpg
+
+# Gerados
+detalhe/*.html
+!detalhe/.gitkeep
+ideias/*.html
+index.html.bak
+tmp/
+temp/
+.tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node (JEV lab)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.typesafe/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Termux / Android
+/sdcard/
+/storage/
+
+# Vercel / Cloudflare
+.vercel
+.wrangler/
+dist/
+out/
+.next/
+
+# Backup
+*.bak
+*.bak_*
+
+# Logs do keepalive (não versionar)
+*.log
+hermes-watchdog.log
+adb_keepalive.log
