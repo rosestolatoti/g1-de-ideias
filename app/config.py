@@ -9,13 +9,14 @@ from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env", override=False)
-# também tenta carregar da lab isolada (robustez)
-lab_env = Path("/tmp/typesafe-lab/.env.secure")
-if lab_env.exists():
-    load_dotenv(lab_env, override=False)
-hermes_env = Path("/root/.hermes/.env")
-if hermes_env.exists():
-    load_dotenv(hermes_env, override=False)
+# também tenta carregar da lab isolada (robustez) — CI-safe com try
+for env_path in [Path("/tmp/typesafe-lab/.env.secure"), Path("/root/.hermes/.env"), Path("/data/data/com.termux/files/home/.hermes/.env")]:
+    try:
+        if env_path.exists():
+            load_dotenv(env_path, override=False)
+    except (PermissionError, OSError):
+        # CI runner sem permissão em /root → ignora
+        pass
 
 class BaseConfig:
     SECRET_KEY = os.getenv("SECRET_KEY", "dev-g1-de-ideias-troque-em-prod")
